@@ -8,11 +8,22 @@
 </head>
 <body>
     <header>
-    Gamma Daemon: Automatically Adjust Screen Brightness Based on Battery Life.    
+    Gamma Daemon 
     </header>    
+    <header>
+    Automatically Adjust Screen Brightness Based on Battery Life
+    </header>
     <main>
         <section>
+	GammaDaemon can run in any Linux environment, and is indepdendent of init services.
+	You can start it from any source, whether it be an autorun script or an exec statement
+	in a Window Manager config file.
         </section>
+	<section>
+	GammaDaemon adjuests screen brightness by values from 0 to 255, which you can configure.
+	The location for the configuration file is at $HOME/.config/GammaDaemon/conf.toml. 
+	If GammaDaemon can't find this file, it will use a built-in default config.
+	</section>
     </main>
     
     <footer>
